@@ -1,0 +1,10 @@
+--- python/setup.py     2015-08-18 11:15:35.546257493 +0200
++++ python/setup-threadfix.py   2015-08-18 11:32:16.784394028 +0200
+@@ -24,7 +24,6 @@
+                   libraries = [
+                     'm',
+                     'dl',
+-                    'pthread'
+                   ],
+                   sources = [
+                     'pylibpd.i',
